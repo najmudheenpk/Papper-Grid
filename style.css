@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+}
+
+.promo-banner{
+    background-color: #121212;
+    border-bottom:1px solid #3c3939;
+    cursor: pointer;
+}
+
+.promo-banner:hover{
+    background-color: #3c3939;
+}
+
+.nav{
+    padding-left: 16em;
+}
+
+.header-icons{
+    position: absolute;
+    right: 1rem;
+}
+
+.menu-option:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.about-button{
+background-color: #121212;
+outline: none;
+color: white;
+outline: none;
+width: 15rem;
+height: 5rem;
+border: none;
+}
+
+.logo-header{
+    position: sticky;
+    top: 0px;
+}
+
+.copy-right{
+    background-color: #121212;
+    border-top:1px solid #3c3939;
+}
+
+/* .custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  
+.custom-toggler.navbar-toggler {
+    border-color: rgb(255,255,255);
+}  */
+
+li:hover{
+    color: white;
+}
+
+@media ( min-width : 768px ){
+    .image-div{
+        padding: 40px;
+    }
+
+    .text-div{
+        padding: 40px;
+    }
+
+}
+
+@media ( max-width : 992px ){
+    .text-div{
+        display: grid;
+        justify-items: center;
+        text-align: center;
+        padding: 0px;
+    }
+
+    .menu-button{
+        margin-left: 2rem;
+    }
+}
+
+@media ( max-width : 1204px ){
+    .logo{
+        margin-left: 26rem;
+    }
+
+    .header-icons{
+        visibility: hidden;
+        
+    }
+}
+
+@media ( max-width : 1102px ){
+    .logo{
+        margin-left: 24rem;
+    }
+}
+
+@media ( max-width : 990px ){
+    .logo{
+        margin-left: 20rem;
+    }
+}
+
+@media ( max-width : 766px ){
+    .logo{
+        margin-left: 14rem;
+    }
+
+    .menu-button{
+        margin-left: -3rem;
+    }
+
+}
+
+@media ( max-width : 566px ){
+    .logo{
+        margin-left: 12rem;
+    }
+
+    .menu-button{
+        margin-left: -3rem;
+    }
+
+}
+
+@media ( max-width : 500px ){
+    .logo{
+        margin-left: 7rem;
+    }
+}
+
+@media ( max-width : 428px ){
+    .logo{
+        margin-left: 5rem;
+    }
+
+    .menu-button{
+        margin-left: -2rem;
+    }
+}
