@@ -49,6 +49,9 @@ papergrid-responsive-website/
 │
 ├── index.html
 ├── style.css
+├── images/
+│   ├── images/
+│   └── icons/
 ├── papergrid-responsive-website.png
 └── README.md
 ```
